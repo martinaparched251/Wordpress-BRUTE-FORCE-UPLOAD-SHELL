@@ -87,8 +87,8 @@ pip install requests colorama urllib3
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ultimate-wp-scanner.git
-cd ultimate-wp-scanner
+git clone https://github.com/HackfutSec/Wordpress-BRUTE-FORCE-UPLOAD-SHELL.git
+cd Wordpress-BRUTE-FORCE-UPLOAD-SHELL
 
 # Create necessary directories
 mkdir -p Files readyTouse
@@ -102,7 +102,7 @@ mkdir -p Files readyTouse
 ### Required Files Structure
 
 ```
-ultimate-wp-scanner/
+Wordpress-BRUTE-FORCE-UPLOAD-SHELL/
 ├── BRUTER.py                 # Main scanner
 ├── Files/
 │   ├── plugin.zip           # Malicious plugin with shell
