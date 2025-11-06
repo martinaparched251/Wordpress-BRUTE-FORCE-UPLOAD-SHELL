@@ -11,7 +11,7 @@ echo ═════════════════════════
 echo.
 
 :: Configuration
-set SCRIPT=bf.py
+set SCRIPT=BRUTER.py
 set INSTANCES=5
 set SITES_DIR=sites
 
@@ -367,4 +367,5 @@ echo [ERROR] Cannot continue
 echo Verify that wpbrutgui.py is in the same directory
 echo ═══════════════════════════════════════════════════════════
 pause
+
 exit /b 1
